@@ -1,0 +1,42 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.mobile-layout {
+
+  .app-toolbar {
+    position: fixed;
+    z-index: 2;
+  }
+
+  .app-sidenav-container {
+    flex: 1 0 auto;
+  }
+
+  h1.app-logo {
+    margin-left: 8px;
+  }
+  .mat-drawer {
+    width: 300px;
+  }
+}
+
+.app-sidenav-container {
+  flex: 1;
+}
+
+.mat-drawer {
+  width: 200px;
+}
+
+.router-container {
+  padding: 0 10px;
+}

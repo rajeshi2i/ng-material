@@ -1,0 +1,45 @@
+.mat-card {
+  background: #fff;
+  color: rgba(0,0,0,.87);
+  .mat-card-subtitle {
+    color: rgba(0,0,0,.87);
+  }
+  .mat-card-actions {
+    border-top: 1px solid #f0f0f0;
+  }
+}
+
+.example-card {
+  width: calc(20% - 42px);
+  display: inline-block;
+  margin: 5px;
+}
+
+.example-header-image {
+  background-image: url('/assets/images/4.jpg');
+  background-size: cover;
+}
+
+@media only screen and (max-width : 1100px) {
+  .example-card {
+    width: calc(25% - 42px);
+  }
+}
+
+@media only screen and (max-width : 900px) {
+  .example-card {
+    width: calc(33.333% - 42px);
+  }
+}
+
+@media only screen and (max-width : 650px) {
+  .example-card {
+    width: calc(50% - 42px);
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  .example-card {
+    width: calc(100% - 42px);
+  }
+}
